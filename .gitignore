@@ -9,15 +9,10 @@ ENV/
 *.env
 
 # Cache biên dịch của Python
-**/__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
 # Thư mục lưu trữ dữ liệu local của hệ thống RAG
 # (Bao gồm dữ liệu audio, transcript pkl, faiss index...)
-storage/
-**/storage/
+
 
 # File dữ liệu cấu hình IDE & OS
 .vscode/
