@@ -97,10 +97,6 @@ backend/
 │   │   ├── constants.py
 │   │   └── jobs.py
 │   │
-│   ├── models/
-│   │   ├── request.py
-│   │   └── response.py
-│   │
 │   ├── services/
 │   │   ├── transcript/
 │   │   ├── preprocessing/
