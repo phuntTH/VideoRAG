@@ -1,0 +1,36 @@
+# Thư mục môi trường ảo (Không push thư viện lên)
+.venv/
+venv/
+env/
+ENV/
+
+# File cấu hình bảo mật (Tuyệt đối không để lộ API Key)
+.env
+*.env
+
+# Cache biên dịch của Python
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Thư mục lưu trữ dữ liệu local của hệ thống RAG
+# (Bao gồm dữ liệu audio, transcript pkl, faiss index...)
+storage/
+**/storage/
+
+# File dữ liệu cấu hình IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# File log hệ thống
+*.log
+
+pyrefly.toml
+test_day_1.py
+test_day_2.py
+test_day_3.py
+test_day_4.py
+test_day_5.py
