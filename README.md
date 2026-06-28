@@ -74,7 +74,7 @@ Dense Embedding     BM25 Index
 | ----------------------------- | -------------------------------------------------------------- |
 | Dense Embedding               | BAAI/bge-base-en-v1.5 *(or another SentenceTransformer model)* |
 | Sparse Retrieval              | BM25                                                           |
-| LLM                           | Gemini 2.5 Flash                                               |
+| LLM                           | Gemini 3.1 Flash-lite                                          |
 | Speech Recognition (Fallback) | Whisper                                                        |
 | Transcript Source             | YouTube Transcript API                                         |
 
